@@ -242,30 +242,28 @@
 /* kaufman*/
 
 .kaufman{
-  background-image: url("../images/kaufman-triangle.svg");
-  background-repeat: no-repeat;
-  background-size: 877px;
-  background-position: top right -210px;
-  background-color: #1f1f1f;
-  overflow: hidden;
+  display: flex;
   flex-direction: column;
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
 }
 
-.kaufman__section-title_theme_dark{
+.section-title_theme_dark{
   color: #f2f2f2;
-  margin-top: 0px;
+  margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 90px;
   margin-bottom: 20px;
   width: 60%;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
+  z-index: 2;
 }
 
-.kaufman__section-subtitle_theme_dark{
+.section-subtitle_theme_dark{
   color: #f2f2f2;
   width: 60%;
   text-align: center;
@@ -276,13 +274,15 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .table_theme_dark{
   margin-left: auto;
   margin-right: auto;
   z-index: 4;
-  padding-bottom: 90px;
+  padding-bottom: 0px;
+  margin-bottom: 90px;
 }
 
 .table__heading_theme_dark{
@@ -291,6 +291,7 @@
   font-weight: bold;
   margin-bottom: 20px;
   margin-top: 0px;
+  
 }
 
 .table__text_theme_dark{
@@ -298,15 +299,19 @@
   font-size: 18px;
   margin-bottom: 0px;
   font-weight: normal; 
-}
+  
+} 
 
 .kaufman__triangle{
-    height: 877px;
-    width: 877px;
-    position: absolute;
-    right: -210px;
-    top: 0px;
-    z-index: -1;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-repeat: no-repeat;
+  background-size: 877px;
+  position: absolute;
+  top: 0px;
+  right: -210px;
+  width: 877px;
+  height: 877px;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
