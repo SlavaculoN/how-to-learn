@@ -51,6 +51,7 @@
 @import url("../blocks/cards/__title/cards__title.css");
 @import url("../blocks/cards/__direction/cards__direction.css");
 @import url("../blocks/video/video.css");
+@import url("../blocks/video/__iframe/video__iframe.css");
 @import url("../blocks/video/__iframes/video__iframes.css");
 @import url("../blocks/oakley/oakley.css");
 @import url("../blocks/khan/khan.css");
